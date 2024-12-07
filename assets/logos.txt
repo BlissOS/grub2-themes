@@ -48,6 +48,7 @@ ubuntuDDE
 archcraft
 brunch
 nobara
+blissos
 
 recovery
 restart
