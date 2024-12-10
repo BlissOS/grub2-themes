@@ -9,4 +9,4 @@ RUN yes | apt install -y debhelper wget || :
 
 COPY . /grub-theme-blissos
 
-RUN ./build-deb.sh
+RUN ./grub-theme-blissos/build-deb.sh
