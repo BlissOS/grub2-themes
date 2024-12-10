@@ -3,12 +3,12 @@ name: Generate .deb (ceres)
 on:
   push:
     branches:
-      - main
+      - master
     tags:
       - v*
   pull_request:
     branches:
-      - main
+      - master
   workflow_dispatch:
 
 jobs:
@@ -41,10 +41,10 @@ jobs:
         run: |
           # Export it to install
           mkdir install
-          sudo tar -C install -psxvf install.tar
+          sudo tar -C install -psxf install.tar
 
-          # Move .deb out
-          mv install/*.deb ./
+          # Move content out
+          mv install/*.{deb,buildinfo,changes} ./
 
           # Clean up
           sudo rm -rf install install.tar
@@ -61,6 +61,13 @@ jobs:
           path: |
             grub-theme-blissos_${{ env.GITHUB_ARTIFACT_VERSION }}_${{ env.GITHUB_ARTIFACT_ARCH }}.buildinfo
             grub-theme-blissos_${{ env.GITHUB_ARTIFACT_VERSION }}_${{ env.GITHUB_ARTIFACT_ARCH }}.changes
+
+      - name: Upload meta package
+        uses: actions/upload-artifact@v4
+        with:
+          name: grub-theme-blissos_${{ env.GITHUB_ARTIFACT_VERSION }}_${{ env.GITHUB_ARTIFACT_ARCH }}.deb
+          path: grub-theme-blissos_${{ env.GITHUB_ARTIFACT_VERSION }}_${{ env.GITHUB_ARTIFACT_ARCH }}.deb
+          compression-level: 0
 
       - name: Upload variant tela-color-1080p
         uses: actions/upload-artifact@v4
