@@ -1,0 +1,6 @@
+/grub-theme-blissos/
+/grub-theme-blissos-*-*-*/
+/.debhelper
+debhelper-build-stamp
+*.substvars
+files

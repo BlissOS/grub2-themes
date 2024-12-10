@@ -19,7 +19,7 @@ License: <special license>
 Files:
  debian/*
 Copyright:
- 2024 Shadichy <shadichy@blisslabs.org>
+ 2024 Bùi Gia Viện (BlissLabs) <shadichy@blisslabs.org>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by

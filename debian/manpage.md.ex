@@ -112,12 +112,12 @@ available via the **info**(1) system.
 
 # AUTHOR
 
-Shadichy <shadichy@blisslabs.org>
+Bùi Gia Viện (BlissLabs) <shadichy@blisslabs.org>
 :   Wrote this manpage for the Debian system.
 
 # COPYRIGHT
 
-Copyright © 2007 Shadichy
+Copyright © 2007 Bùi Gia Viện
 
 This manual page was written for the Debian system (and may be used by
 others).

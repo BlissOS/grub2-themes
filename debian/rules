@@ -23,12 +23,15 @@ SCREEN_VARIANTS = 1080p 2k 4k ultrawide ultrawide2k
 
 override_dh_auto_configure:
 
+override_dh_auto_clean:
+	rm -rf grub
+
 override_dh_auto_build:
 	for icon in $(ICON_VARIANTS); do \
 	  for res in $(SCREEN_VARIANTS); do \
 			./install.sh -t $(THEME_VARIANTS) -i $$icon -s $$res -g grub; \
 			for theme in $(THEME_VARIANTS); do \
-				mv grub/$$theme grub/$$theme-$$icon-$$res
+				mv grub/$$theme grub/$$theme-$$icon-$$res; \
 			done; \
 		done; \
 	done;

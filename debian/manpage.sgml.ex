@@ -25,7 +25,7 @@ manpage.1: manpage.sgml
        allowed: see man(7), man(1). -->
   <!ENTITY dhsection   "<manvolnum>SECTION</manvolnum>">
   <!ENTITY dhemail     "<email>shadichy@blisslabs.org</email>">
-  <!ENTITY dhusername  "Shadichy">
+  <!ENTITY dhusername  "Bùi Gia Viện">
   <!ENTITY dhucpackage "<refentrytitle>Grub-theme-blissos</refentrytitle>">
   <!ENTITY dhpackage   "grub-theme-blissos">
 

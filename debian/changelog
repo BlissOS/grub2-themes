@@ -1,5 +1,5 @@
-grub-theme-blissos (1.1.0-1) UNRELEASED; urgency=medium
+grub-theme-blissos (1.1.0-1) unstable; urgency=medium
 
   * Initial release. (Closes: #never)
 
- -- Shadichy <shadichy@blisslabs.org>  Tue, 10 Dec 2024 13:56:21 +0700
+ -- Bùi Gia Viện (BlissLabs) <shadichy@blisslabs.org>  Tue, 10 Dec 2024 13:56:21 +0700

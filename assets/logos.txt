@@ -2,6 +2,7 @@ android
 anonymous
 antergos
 arcolinux
+blissos
 elementary
 korora
 mageia

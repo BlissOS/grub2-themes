@@ -1,7 +1,7 @@
 Source: grub-theme-blissos
 Section: unknown
 Priority: optional
-Maintainer: Shadichy <shadichy@blisslabs.org>
+Maintainer: Bùi Gia Viện (BlissLabs) <shadichy@blisslabs.org>
 Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
@@ -14,7 +14,6 @@ Package: grub-theme-blissos
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  <Insert long description, indented with spaces.>
@@ -23,7 +22,6 @@ Package: grub-theme-blissos-tela-color-1080p
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, tela variant, color icon pack, 1080p resolution
@@ -32,7 +30,6 @@ Package: grub-theme-blissos-tela-color-2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, tela variant, color icon pack, 2k resolution
@@ -41,7 +38,6 @@ Package: grub-theme-blissos-tela-color-4k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, tela variant, color icon pack, 4k resolution
@@ -50,7 +46,6 @@ Package: grub-theme-blissos-tela-color-ultrawide
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, tela variant, color icon pack, ultrawide resolution
@@ -59,7 +54,6 @@ Package: grub-theme-blissos-tela-color-ultrawide2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, tela variant, color icon pack, ultrawide2k resolution
@@ -68,7 +62,6 @@ Package: grub-theme-blissos-tela-white-1080p
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, tela variant, white icon pack, 1080p resolution
@@ -77,7 +70,6 @@ Package: grub-theme-blissos-tela-white-2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, tela variant, white icon pack, 2k resolution
@@ -86,7 +78,6 @@ Package: grub-theme-blissos-tela-white-4k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, tela variant, white icon pack, 4k resolution
@@ -95,7 +86,6 @@ Package: grub-theme-blissos-tela-white-ultrawide
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, tela variant, white icon pack, ultrawide resolution
@@ -104,7 +94,6 @@ Package: grub-theme-blissos-tela-white-ultrawide2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, tela variant, white icon pack, ultrawide2k resolution
@@ -113,7 +102,6 @@ Package: grub-theme-blissos-tela-whitesur-1080p
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, tela variant, whitesur icon pack, 1080p resolution
@@ -122,7 +110,6 @@ Package: grub-theme-blissos-tela-whitesur-2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, tela variant, whitesur icon pack, 2k resolution
@@ -131,7 +118,6 @@ Package: grub-theme-blissos-tela-whitesur-4k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, tela variant, whitesur icon pack, 4k resolution
@@ -140,7 +126,6 @@ Package: grub-theme-blissos-tela-whitesur-ultrawide
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, tela variant, whitesur icon pack, ultrawide resolution
@@ -149,7 +134,6 @@ Package: grub-theme-blissos-tela-whitesur-ultrawide2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, tela variant, whitesur icon pack, ultrawide2k resolution
@@ -158,7 +142,6 @@ Package: grub-theme-blissos-vimix-color-1080p
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, vimix variant, color icon pack, 1080p resolution
@@ -167,7 +150,6 @@ Package: grub-theme-blissos-vimix-color-2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, vimix variant, color icon pack, 2k resolution
@@ -176,7 +158,6 @@ Package: grub-theme-blissos-vimix-color-4k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, vimix variant, color icon pack, 4k resolution
@@ -185,7 +166,6 @@ Package: grub-theme-blissos-vimix-color-ultrawide
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, vimix variant, color icon pack, ultrawide resolution
@@ -194,7 +174,6 @@ Package: grub-theme-blissos-vimix-color-ultrawide2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, vimix variant, color icon pack, ultrawide2k resolution
@@ -203,7 +182,6 @@ Package: grub-theme-blissos-vimix-white-1080p
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, vimix variant, white icon pack, 1080p resolution
@@ -212,7 +190,6 @@ Package: grub-theme-blissos-vimix-white-2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, vimix variant, white icon pack, 2k resolution
@@ -221,7 +198,6 @@ Package: grub-theme-blissos-vimix-white-4k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, vimix variant, white icon pack, 4k resolution
@@ -230,7 +206,6 @@ Package: grub-theme-blissos-vimix-white-ultrawide
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, vimix variant, white icon pack, ultrawide resolution
@@ -239,7 +214,6 @@ Package: grub-theme-blissos-vimix-white-ultrawide2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, vimix variant, white icon pack, ultrawide2k resolution
@@ -248,7 +222,6 @@ Package: grub-theme-blissos-vimix-whitesur-1080p
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, vimix variant, whitesur icon pack, 1080p resolution
@@ -257,7 +230,6 @@ Package: grub-theme-blissos-vimix-whitesur-2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, vimix variant, whitesur icon pack, 2k resolution
@@ -266,7 +238,6 @@ Package: grub-theme-blissos-vimix-whitesur-4k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, vimix variant, whitesur icon pack, 4k resolution
@@ -275,7 +246,6 @@ Package: grub-theme-blissos-vimix-whitesur-ultrawide
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, vimix variant, whitesur icon pack, ultrawide resolution
@@ -284,7 +254,6 @@ Package: grub-theme-blissos-vimix-whitesur-ultrawide2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, vimix variant, whitesur icon pack, ultrawide2k resolution
@@ -293,7 +262,6 @@ Package: grub-theme-blissos-stylish-color-1080p
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, stylish variant, color icon pack, 1080p resolution
@@ -302,7 +270,6 @@ Package: grub-theme-blissos-stylish-color-2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, stylish variant, color icon pack, 2k resolution
@@ -311,7 +278,6 @@ Package: grub-theme-blissos-stylish-color-4k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, stylish variant, color icon pack, 4k resolution
@@ -320,7 +286,6 @@ Package: grub-theme-blissos-stylish-color-ultrawide
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, stylish variant, color icon pack, ultrawide resolution
@@ -329,7 +294,6 @@ Package: grub-theme-blissos-stylish-color-ultrawide2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, stylish variant, color icon pack, ultrawide2k resolution
@@ -338,7 +302,6 @@ Package: grub-theme-blissos-stylish-white-1080p
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, stylish variant, white icon pack, 1080p resolution
@@ -347,7 +310,6 @@ Package: grub-theme-blissos-stylish-white-2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, stylish variant, white icon pack, 2k resolution
@@ -356,7 +318,6 @@ Package: grub-theme-blissos-stylish-white-4k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, stylish variant, white icon pack, 4k resolution
@@ -365,7 +326,6 @@ Package: grub-theme-blissos-stylish-white-ultrawide
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, stylish variant, white icon pack, ultrawide resolution
@@ -374,7 +334,6 @@ Package: grub-theme-blissos-stylish-white-ultrawide2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, stylish variant, white icon pack, ultrawide2k resolution
@@ -383,7 +342,6 @@ Package: grub-theme-blissos-stylish-whitesur-1080p
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, stylish variant, whitesur icon pack, 1080p resolution
@@ -392,7 +350,6 @@ Package: grub-theme-blissos-stylish-whitesur-2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, stylish variant, whitesur icon pack, 2k resolution
@@ -401,7 +358,6 @@ Package: grub-theme-blissos-stylish-whitesur-4k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, stylish variant, whitesur icon pack, 4k resolution
@@ -410,7 +366,6 @@ Package: grub-theme-blissos-stylish-whitesur-ultrawide
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, stylish variant, whitesur icon pack, ultrawide resolution
@@ -419,7 +374,6 @@ Package: grub-theme-blissos-stylish-whitesur-ultrawide2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, stylish variant, whitesur icon pack, ultrawide2k resolution
@@ -428,7 +382,6 @@ Package: grub-theme-blissos-whitesur-color-1080p
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, whitesur variant, color icon pack, 1080p resolution
@@ -437,7 +390,6 @@ Package: grub-theme-blissos-whitesur-color-2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, whitesur variant, color icon pack, 2k resolution
@@ -446,7 +398,6 @@ Package: grub-theme-blissos-whitesur-color-4k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, whitesur variant, color icon pack, 4k resolution
@@ -455,7 +406,6 @@ Package: grub-theme-blissos-whitesur-color-ultrawide
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, whitesur variant, color icon pack, ultrawide resolution
@@ -464,7 +414,6 @@ Package: grub-theme-blissos-whitesur-color-ultrawide2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, whitesur variant, color icon pack, ultrawide2k resolution
@@ -473,7 +422,6 @@ Package: grub-theme-blissos-whitesur-white-1080p
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, whitesur variant, white icon pack, 1080p resolution
@@ -482,7 +430,6 @@ Package: grub-theme-blissos-whitesur-white-2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, whitesur variant, white icon pack, 2k resolution
@@ -491,7 +438,6 @@ Package: grub-theme-blissos-whitesur-white-4k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, whitesur variant, white icon pack, 4k resolution
@@ -500,7 +446,6 @@ Package: grub-theme-blissos-whitesur-white-ultrawide
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, whitesur variant, white icon pack, ultrawide resolution
@@ -509,7 +454,6 @@ Package: grub-theme-blissos-whitesur-white-ultrawide2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, whitesur variant, white icon pack, ultrawide2k resolution
@@ -518,7 +462,6 @@ Package: grub-theme-blissos-whitesur-whitesur-1080p
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, whitesur variant, whitesur icon pack, 1080p resolution
@@ -527,7 +470,6 @@ Package: grub-theme-blissos-whitesur-whitesur-2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, whitesur variant, whitesur icon pack, 2k resolution
@@ -536,7 +478,6 @@ Package: grub-theme-blissos-whitesur-whitesur-4k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, whitesur variant, whitesur icon pack, 4k resolution
@@ -545,7 +486,6 @@ Package: grub-theme-blissos-whitesur-whitesur-ultrawide
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, whitesur variant, whitesur icon pack, ultrawide resolution
@@ -554,7 +494,6 @@ Package: grub-theme-blissos-whitesur-whitesur-ultrawide2k
 Architecture: any
 Multi-Arch: foreign
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
 Description: <insert up to 60 chars description>
  GNU GRUB theme for BlissOS, whitesur variant, whitesur icon pack, ultrawide2k resolution
