@@ -11,8 +11,8 @@ tui_root_login=
 THEME_DIR="/usr/share/grub/themes"
 REO_DIR="$(cd $(dirname $0) && pwd)"
 
-THEME_VARIANTS=('vimix' 'tela' 'stylish' 'whitesur')
-ICON_VARIANTS=('white' 'color' 'whitesur')
+THEME_VARIANTS=('tela' 'vimix' 'stylish' 'whitesur')
+ICON_VARIANTS=('color' 'white' 'whitesur')
 SCREEN_VARIANTS=('1080p' '2k' '4k' 'ultrawide' 'ultrawide2k')
 custom_resolution=""
 
@@ -63,11 +63,11 @@ cat << EOF
 Usage: $0 [OPTION]...
 
 OPTIONS:
-  -t, --theme                 theme variant(s)          [vimix|tela|stylish|whitesur]       (default is vimix)
-  -i, --icon                  icon variant(s)           [white|color|whitesur]              (default is white)
+  -t, --theme                 theme variant(s)          [tela|vimix|stylish|whitesur]       (default is tela)
+  -i, --icon                  icon variant(s)           [color|white|whitesur]              (default is color)
   -s, --screen                screen display variant(s) [1080p|2k|4k|ultrawide|ultrawide2k] (default is 1080p)
   -c, --custom-resolution     set custom resolution     (e.g., 1600x900)                    (disabled in default)
-  -r, --remove                remove theme              [vimix|tela|stylish|whitesur]       (must add theme name option, default is tela)
+  -r, --remove                remove theme              [tela|vimix|stylish|whitesur]       (must add theme name option, default is tela)
 
   -b, --boot                  install theme into '/boot/grub' or '/boot/grub2'
   -g, --generate              do not install but generate theme into chosen directory       (must add your directory)
@@ -99,7 +99,7 @@ generate() {
   # Don't preserve ownership because the owner will be root, and that causes the script to crash if it is ran from terminal by sudo
   cp -a --no-preserve=ownership "${REO_DIR}/common/"*.pf2 "${THEME_DIR}/${theme}"
   cp -a --no-preserve=ownership "${REO_DIR}/config/theme-${screen}.txt" "${THEME_DIR}/${theme}/theme.txt"
-  cp -a --no-preserve=ownership "${REO_DIR}/backgrounds/${screen}/background-${theme}.jpg" "${THEME_DIR}/${theme}/background.jpg"
+  cp -a --no-preserve=ownership "${REO_DIR}/backgrounds/${screen}/background-${theme}.jpg" "${THEME_DIR}/${theme}/background.png"
 
   # Function to determine which assets to use based on resolution
   get_asset_type() {
@@ -121,18 +121,18 @@ generate() {
     # Replace resolution in theme.txt
     sed -i "s/[0-9]\+x[0-9]\+/${custom_resolution}/" "${THEME_DIR}/${theme}/theme.txt"
     # Use appropriate background as base and resize it
-    cp -a --no-preserve=ownership "${REO_DIR}/backgrounds/${asset_type}/background-${theme}.jpg" "${THEME_DIR}/${theme}/background.jpg"
-    convert "${THEME_DIR}/${theme}/background.jpg" -resize ${custom_resolution}^ -gravity center -extent ${custom_resolution} "${THEME_DIR}/${theme}/background.jpg"
+    cp -a --no-preserve=ownership "${REO_DIR}/backgrounds/${asset_type}/background-${theme}.jpg" "${THEME_DIR}/${theme}/background.png"
+    convert "${THEME_DIR}/${theme}/background.png" -resize ${custom_resolution}^ -gravity center -extent ${custom_resolution} "${THEME_DIR}/${theme}/background.png"
   else
     cp -a --no-preserve=ownership "${REO_DIR}/config/theme-${screen}.txt" "${THEME_DIR}/${theme}/theme.txt"
-    cp -a --no-preserve=ownership "${REO_DIR}/backgrounds/${screen}/background-${theme}.jpg" "${THEME_DIR}/${theme}/background.jpg"
+    cp -a --no-preserve=ownership "${REO_DIR}/backgrounds/${screen}/background-${theme}.jpg" "${THEME_DIR}/${theme}/background.png"
   fi
 
-  # Use custom background.jpg as grub background image
-  if [[ -f "${REO_DIR}/background.jpg" ]]; then
-    prompt -w "\n Using custom background.jpg as grub background image..."
-    cp -a --no-preserve=ownership "${REO_DIR}/background.jpg" "${THEME_DIR}/${theme}/background.jpg"
-    convert -auto-orient "${THEME_DIR}/${theme}/background.jpg" "${THEME_DIR}/${theme}/background.jpg"
+  # Use custom background.png as grub background image
+  if [[ -f "${REO_DIR}/background.png" ]]; then
+    prompt -w "\n Using custom background.png as grub background image..."
+    cp -a --no-preserve=ownership "${REO_DIR}/background.png" "${THEME_DIR}/${theme}/background.png"
+    convert -auto-orient "${THEME_DIR}/${theme}/background.png" "${THEME_DIR}/${theme}/background.png"
   fi
 
   # Determine which assets to use based on custom resolution or screen
@@ -214,10 +214,10 @@ install() {
 
     if grep "GRUB_BACKGROUND=" /etc/default/grub 2>&1 >/dev/null; then
       #Replace GRUB_BACKGROUND
-      sed -i "s|.*GRUB_BACKGROUND=.*|GRUB_BACKGROUND=\"${THEME_DIR}/${theme}/background.jpg\"|" /etc/default/grub
+      sed -i "s|.*GRUB_BACKGROUND=.*|GRUB_BACKGROUND=\"${THEME_DIR}/${theme}/background.png\"|" /etc/default/grub
     else
       #Append GRUB_BACKGROUND
-      echo "GRUB_BACKGROUND=\"${THEME_DIR}/${theme}/background.jpg\"" >> /etc/default/grub
+      echo "GRUB_BACKGROUND=\"${THEME_DIR}/${theme}/background.png\"" >> /etc/default/grub
     fi
 
     # Make sure the right resolution for grub is set

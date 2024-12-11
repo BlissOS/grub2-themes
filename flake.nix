@@ -49,8 +49,8 @@
                 ${if cfg.customResolution != null then "--custom-resolution ${cfg.customResolution}" else ""}
 
               if [ -n "${splashImage}" ]; then
-                rm $out/grub/themes/${cfg.theme}/background.jpg;
-                ${pkgs.imagemagick}/bin/magick ${splashImage} $out/grub/themes/${cfg.theme}/background.jpg;
+                rm $out/grub/themes/${cfg.theme}/background.png;
+                ${pkgs.imagemagick}/bin/magick ${splashImage} $out/grub/themes/${cfg.theme}/background.png;
               fi;
 
               if [ ${pkgs.lib.trivial.boolToString cfg.footer} == "false" ]; then
@@ -124,7 +124,7 @@
               };
               splashImage = mkOption {
                 default = null;
-                example = "/my/path/background.jpg";
+                example = "/my/path/background.png";
                 type = types.nullOr types.path;
                 description = ''
                   The path of the image to use for background (must be jpg or png).
@@ -164,7 +164,7 @@
             ];
             boot.loader.grub = {
               theme = "${grub2-theme}/grub/themes/${cfg.theme}";
-              splashImage = "${grub2-theme}/grub/themes/${cfg.theme}/background.jpg";
+              splashImage = "${grub2-theme}/grub/themes/${cfg.theme}/background.png";
               gfxmodeEfi = "${resolution},auto";
               gfxmodeBios = "${resolution},auto";
               extraConfig = ''

@@ -6,7 +6,7 @@ grub/tela-white-1080p/unifont-16.pf2 usr/share/grub/themes/tela-white-1080p
 grub/tela-white-1080p/unifont-24.pf2 usr/share/grub/themes/tela-white-1080p
 grub/tela-white-1080p/unifont-32.pf2 usr/share/grub/themes/tela-white-1080p
 grub/tela-white-1080p/theme.txt usr/share/grub/themes/tela-white-1080p
-grub/tela-white-1080p/background.jpg usr/share/grub/themes/tela-white-1080p
+grub/tela-white-1080p/background.png usr/share/grub/themes/tela-white-1080p
 grub/tela-white-1080p/icons/4MLinux.png usr/share/grub/themes/tela-white-1080p/icons
 grub/tela-white-1080p/icons/AlpineLinux.png usr/share/grub/themes/tela-white-1080p/icons
 grub/tela-white-1080p/icons/Manjaro.i686.png usr/share/grub/themes/tela-white-1080p/icons

@@ -6,7 +6,7 @@ grub/tela-whitesur-ultrawide/unifont-16.pf2 usr/share/grub/themes/tela-whitesur-
 grub/tela-whitesur-ultrawide/unifont-24.pf2 usr/share/grub/themes/tela-whitesur-ultrawide
 grub/tela-whitesur-ultrawide/unifont-32.pf2 usr/share/grub/themes/tela-whitesur-ultrawide
 grub/tela-whitesur-ultrawide/theme.txt usr/share/grub/themes/tela-whitesur-ultrawide
-grub/tela-whitesur-ultrawide/background.jpg usr/share/grub/themes/tela-whitesur-ultrawide
+grub/tela-whitesur-ultrawide/background.png usr/share/grub/themes/tela-whitesur-ultrawide
 grub/tela-whitesur-ultrawide/icons/4MLinux.png usr/share/grub/themes/tela-whitesur-ultrawide/icons
 grub/tela-whitesur-ultrawide/icons/AlpineLinux.png usr/share/grub/themes/tela-whitesur-ultrawide/icons
 grub/tela-whitesur-ultrawide/icons/Manjaro.i686.png usr/share/grub/themes/tela-whitesur-ultrawide/icons

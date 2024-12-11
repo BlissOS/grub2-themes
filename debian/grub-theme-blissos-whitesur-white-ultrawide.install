@@ -6,7 +6,7 @@ grub/whitesur-white-ultrawide/unifont-16.pf2 usr/share/grub/themes/whitesur-whit
 grub/whitesur-white-ultrawide/unifont-24.pf2 usr/share/grub/themes/whitesur-white-ultrawide
 grub/whitesur-white-ultrawide/unifont-32.pf2 usr/share/grub/themes/whitesur-white-ultrawide
 grub/whitesur-white-ultrawide/theme.txt usr/share/grub/themes/whitesur-white-ultrawide
-grub/whitesur-white-ultrawide/background.jpg usr/share/grub/themes/whitesur-white-ultrawide
+grub/whitesur-white-ultrawide/background.png usr/share/grub/themes/whitesur-white-ultrawide
 grub/whitesur-white-ultrawide/icons/4MLinux.png usr/share/grub/themes/whitesur-white-ultrawide/icons
 grub/whitesur-white-ultrawide/icons/AlpineLinux.png usr/share/grub/themes/whitesur-white-ultrawide/icons
 grub/whitesur-white-ultrawide/icons/Manjaro.i686.png usr/share/grub/themes/whitesur-white-ultrawide/icons

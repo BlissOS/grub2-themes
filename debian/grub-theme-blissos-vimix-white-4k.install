@@ -6,7 +6,7 @@ grub/vimix-white-4k/unifont-16.pf2 usr/share/grub/themes/vimix-white-4k
 grub/vimix-white-4k/unifont-24.pf2 usr/share/grub/themes/vimix-white-4k
 grub/vimix-white-4k/unifont-32.pf2 usr/share/grub/themes/vimix-white-4k
 grub/vimix-white-4k/theme.txt usr/share/grub/themes/vimix-white-4k
-grub/vimix-white-4k/background.jpg usr/share/grub/themes/vimix-white-4k
+grub/vimix-white-4k/background.png usr/share/grub/themes/vimix-white-4k
 grub/vimix-white-4k/icons/4MLinux.png usr/share/grub/themes/vimix-white-4k/icons
 grub/vimix-white-4k/icons/AlpineLinux.png usr/share/grub/themes/vimix-white-4k/icons
 grub/vimix-white-4k/icons/Manjaro.i686.png usr/share/grub/themes/vimix-white-4k/icons

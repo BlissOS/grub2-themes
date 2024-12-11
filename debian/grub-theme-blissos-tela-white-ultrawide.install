@@ -6,7 +6,7 @@ grub/tela-white-ultrawide/unifont-16.pf2 usr/share/grub/themes/tela-white-ultraw
 grub/tela-white-ultrawide/unifont-24.pf2 usr/share/grub/themes/tela-white-ultrawide
 grub/tela-white-ultrawide/unifont-32.pf2 usr/share/grub/themes/tela-white-ultrawide
 grub/tela-white-ultrawide/theme.txt usr/share/grub/themes/tela-white-ultrawide
-grub/tela-white-ultrawide/background.jpg usr/share/grub/themes/tela-white-ultrawide
+grub/tela-white-ultrawide/background.png usr/share/grub/themes/tela-white-ultrawide
 grub/tela-white-ultrawide/icons/4MLinux.png usr/share/grub/themes/tela-white-ultrawide/icons
 grub/tela-white-ultrawide/icons/AlpineLinux.png usr/share/grub/themes/tela-white-ultrawide/icons
 grub/tela-white-ultrawide/icons/Manjaro.i686.png usr/share/grub/themes/tela-white-ultrawide/icons

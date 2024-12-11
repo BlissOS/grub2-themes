@@ -6,7 +6,7 @@ grub/whitesur-white-2k/unifont-16.pf2 usr/share/grub/themes/whitesur-white-2k
 grub/whitesur-white-2k/unifont-24.pf2 usr/share/grub/themes/whitesur-white-2k
 grub/whitesur-white-2k/unifont-32.pf2 usr/share/grub/themes/whitesur-white-2k
 grub/whitesur-white-2k/theme.txt usr/share/grub/themes/whitesur-white-2k
-grub/whitesur-white-2k/background.jpg usr/share/grub/themes/whitesur-white-2k
+grub/whitesur-white-2k/background.png usr/share/grub/themes/whitesur-white-2k
 grub/whitesur-white-2k/icons/4MLinux.png usr/share/grub/themes/whitesur-white-2k/icons
 grub/whitesur-white-2k/icons/AlpineLinux.png usr/share/grub/themes/whitesur-white-2k/icons
 grub/whitesur-white-2k/icons/Manjaro.i686.png usr/share/grub/themes/whitesur-white-2k/icons
