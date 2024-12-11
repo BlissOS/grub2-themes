@@ -99,7 +99,7 @@ generate() {
   # Don't preserve ownership because the owner will be root, and that causes the script to crash if it is ran from terminal by sudo
   cp -a --no-preserve=ownership "${REO_DIR}/common/"*.pf2 "${THEME_DIR}/${theme}"
   cp -a --no-preserve=ownership "${REO_DIR}/config/theme-${screen}.txt" "${THEME_DIR}/${theme}/theme.txt"
-  cp -a --no-preserve=ownership "${REO_DIR}/backgrounds/${screen}/background-${theme}.jpg" "${THEME_DIR}/${theme}/background.png"
+  cp -a --no-preserve=ownership "${REO_DIR}/backgrounds/${screen}/background-${theme}.png" "${THEME_DIR}/${theme}/background.png"
 
   # Function to determine which assets to use based on resolution
   get_asset_type() {
@@ -121,11 +121,11 @@ generate() {
     # Replace resolution in theme.txt
     sed -i "s/[0-9]\+x[0-9]\+/${custom_resolution}/" "${THEME_DIR}/${theme}/theme.txt"
     # Use appropriate background as base and resize it
-    cp -a --no-preserve=ownership "${REO_DIR}/backgrounds/${asset_type}/background-${theme}.jpg" "${THEME_DIR}/${theme}/background.png"
+    cp -a --no-preserve=ownership "${REO_DIR}/backgrounds/${asset_type}/background-${theme}.png" "${THEME_DIR}/${theme}/background.png"
     convert "${THEME_DIR}/${theme}/background.png" -resize ${custom_resolution}^ -gravity center -extent ${custom_resolution} "${THEME_DIR}/${theme}/background.png"
   else
     cp -a --no-preserve=ownership "${REO_DIR}/config/theme-${screen}.txt" "${THEME_DIR}/${theme}/theme.txt"
-    cp -a --no-preserve=ownership "${REO_DIR}/backgrounds/${screen}/background-${theme}.jpg" "${THEME_DIR}/${theme}/background.png"
+    cp -a --no-preserve=ownership "${REO_DIR}/backgrounds/${screen}/background-${theme}.png" "${THEME_DIR}/${theme}/background.png"
   fi
 
   # Use custom background.png as grub background image
